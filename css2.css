@@ -1,0 +1,120 @@
+* {
+  margin: 0px;
+  font-family: "Playwrite GB S", cursive;
+}
+.containerdiv {
+  /* background-color: red; */
+  height: 100vh;
+  display: flex;
+  /* background-color: red; */
+}
+.innerdiv1 {
+  /* background-color: green; */
+  width: 50%;
+  display: flex;
+  /* flex-direction: column; */
+  justify-content: center;
+  align-items: center;
+  column-gap: 70px;
+}
+.innerdiv2 {
+  /* background-color: purple; */
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.para2 {
+  /* background-color: blue; */
+  height: 85%;
+  width: 80%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  border-style: dotted;
+  font-size: 120px;
+}
+.navbar {
+  background-color: grey;
+}
+.para1 {
+  font-size: 100px;
+  text-align: center;
+  color: white;
+}
+.button1 {
+  height: 700px;
+  width: 100px;
+  background-color: black;
+  color: white;
+  font-size: 50px;
+  cursor: pointer;
+  writing-mode: vertical-lr;
+  text-orientation: upright;
+  transition: all(0.6s);
+}
+.button1:hover {
+  transform: scale(1.03);
+  border-radius: 10px;
+  opacity: 90%;
+}
+.button1:active {
+  opacity: 70%;
+  transform: scale(1);
+}
+.button1:focus {
+  background-color: grey;
+}
+.button2 {
+  height: 700px;
+  width: 100px;
+  background-color: black;
+  color: white;
+  font-size: 40px;
+  cursor: pointer;
+  writing-mode: vertical-lr;
+  text-orientation: upright;
+  transition: all(0.3s);
+}
+.button2:hover {
+  transform: scale(1.03);
+  border-radius: 10px;
+  opacity: 90%;
+}
+.button2:active {
+  opacity: 70%;
+  transform: scale(1);
+}
+.button2:focus {
+  background-color: grey;
+}
+.button3 {
+  height: 700px;
+  width: 100px;
+  background-color: black;
+  color: white;
+  font-size: 40px;
+  cursor: pointer;
+  writing-mode: vertical-lr;
+  text-orientation: upright;
+  transition: all(0.3s);
+}
+.button3:focus {
+  background-color: grey;
+}
+.button3:hover {
+  transform: scale(1.03);
+  border-radius: 10px;
+  opacity: 90%;
+}
+.button3:active {
+  opacity: 70%;
+  transform: scale(1);
+}
+.endbar {
+  width: 100%;
+  height: 130px;
+  background-color: grey;
+}
